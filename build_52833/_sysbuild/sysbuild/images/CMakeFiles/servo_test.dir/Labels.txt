@@ -1,0 +1,13 @@
+# Target labels
+ servo_test
+# Source files and their labels
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/CMakeFiles/servo_test
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/CMakeFiles/servo_test.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/CMakeFiles/servo_test-complete.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-build.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-configure.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-download.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-install.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-mkdir.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-patch.rule
+/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-update.rule

@@ -1,0 +1,6 @@
+2026-10-17T18:32:10.400Z west build --build-dir /home/kaius/Documents/UBC/SUBC/servo_test/build /home/kaius/Documents/UBC/SUBC/servo_test --pristine --board nrf52840dk/nrf52840 -- -DCONF_FILE="prj.conf" -DDTC_OVERLAY_FILE="boards/nrf52840dk_nrf52840.overlay" -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y -Dservo_test_DEBUG_THREAD_INFO=On
+2026-10-17T18:32:11.029Z -- west build: generating a build system
+2026-10-17T18:32:12.076Z -- Found Python3: /home/kaius/ncs/toolchains/c5be9c56c7/usr/local/bin/python3.12 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter 
+2026-10-17T18:32:12.127Z -- Cache files will be written to: /home/kaius/.cache/zephyr
+2026-10-17T18:32:12.361Z -- Found west (found suitable version "1.4.0", minimum required is "0.14.0")
+2026-10-17T18:32:15.653Z -- Board: nrf52840dk, qualifiers: nrf52840

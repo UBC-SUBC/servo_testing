@@ -1,0 +1,22 @@
+cmake:
+  board:
+    name: 'nrf52840dk'
+    path:
+     - '/home/kaius/ncs/v3.1.0/zephyr/boards/nordic/nrf52840dk'
+    qualifiers: 'nrf52840'
+    revision: ''
+  images:
+   - name: 'servo_test'
+     source-dir: '/home/kaius/Documents/UBC/SUBC/servo_test'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/build/_sysbuild/empty.conf'
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/build/_sysbuild/empty.conf'
+    user-files:
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/build/_sysbuild/empty.conf'
+version: '0.1.0'
+west:
+  command: '/home/kaius/ncs/toolchains/c5be9c56c7/usr/local/bin/west build --build-dir /home/kaius/Documents/UBC/SUBC/servo_test/build /home/kaius/Documents/UBC/SUBC/servo_test --pristine --board nrf52840dk/nrf52840 -- -DCONF_FILE=prj.conf -DDTC_OVERLAY_FILE=boards/nrf52840dk_nrf52840.overlay -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y -Dservo_test_DEBUG_THREAD_INFO=On'
+  topdir: '/home/kaius/ncs/v3.1.0'
+  version: '1.4.0'

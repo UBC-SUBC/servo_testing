@@ -1,0 +1,2 @@
+# Load Zephyr board defconfig descriptions.
+osource "/home/kaius/ncs/v3.1.0/zephyr/boards/nordic/nrf52840dk/Kconfig.defconfig"

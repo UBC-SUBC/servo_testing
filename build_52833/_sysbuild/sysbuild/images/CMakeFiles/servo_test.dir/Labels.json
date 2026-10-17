@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/CMakeFiles/servo_test"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/CMakeFiles/servo_test.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/CMakeFiles/servo_test-complete.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-build.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-configure.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-download.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-install.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-mkdir.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-patch.rule"
+		},
+		{
+			"file" : "/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/_sysbuild/sysbuild/images/servo_test-prefix/src/servo_test-stamp/servo_test-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"servo_test"
+		],
+		"name" : "servo_test"
+	}
+}

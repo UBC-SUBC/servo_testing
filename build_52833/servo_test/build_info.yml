@@ -1,0 +1,59 @@
+cmake:
+  application:
+    configuration-dir: '/home/kaius/Documents/UBC/SUBC/servo_test'
+    source-dir: '/home/kaius/Documents/UBC/SUBC/servo_test'
+  board:
+    name: 'nrf52833dk'
+    path:
+     - '/home/kaius/ncs/v3.1.0/zephyr/boards/nordic/nrf52833dk'
+    qualifiers: 'nrf52833'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/kaius/ncs/v3.1.0/nrf/dts/bindings'
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/dts/bindings'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/bindings'
+    files:
+     - '/home/kaius/ncs/v3.1.0/zephyr/boards/nordic/nrf52833dk/nrf52833dk_nrf52833.dts'
+     - 'boards/nrf52833dk_nrf52833.overlay'
+    include-dirs:
+     - '/home/kaius/ncs/v3.1.0/nrf/include'
+     - '/home/kaius/ncs/v3.1.0/nrf/dts/common'
+     - '/home/kaius/ncs/v3.1.0/nrf/dts/riscv'
+     - '/home/kaius/ncs/v3.1.0/nrf/dts/arm'
+     - '/home/kaius/ncs/v3.1.0/nrf/dts'
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/dts'
+     - '/home/kaius/ncs/v3.1.0/zephyr/include'
+     - '/home/kaius/ncs/v3.1.0/zephyr/include/zephyr'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/common'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/vendor'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/rx'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/x86'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/xtensa'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/sparc'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/riscv'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/posix'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/arm64'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/arm'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts/arc'
+     - '/home/kaius/ncs/v3.1.0/zephyr/dts'
+    user-files:
+     - 'boards/nrf52833dk_nrf52833.overlay'
+  kconfig:
+    files:
+     - '/home/kaius/ncs/v3.1.0/zephyr/boards/nordic/nrf52833dk/nrf52833dk_nrf52833_defconfig'
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/prj.conf'
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/servo_test/zephyr/misc/generated/extra_kconfig_options.conf'
+     - '/home/kaius/Documents/UBC/SUBC/servo_test/build_52833/servo_test/zephyr/.config.sysbuild'
+    user-files:
+     - 'prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/kaius/ncs/toolchains/c5be9c56c7/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: '/home/kaius/ncs/v3.1.0/modules/hal/nordic/nrfx/mdk/nrf52833.svd'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: '/home/kaius/ncs/v3.1.0/zephyr'
+version: '0.1.0'
